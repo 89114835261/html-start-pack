@@ -1,4 +1,4 @@
-# gulp buid
+# gulp build
 ### html start pack 2022
 
 
