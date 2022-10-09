@@ -18,7 +18,7 @@ This package includes life:
 
 ---
 
-For use in your projects, click the button above or
+For use in your projects, click the button "use this template" or
 
 `git clone git@github.com:89114835261/html-start-pack.git`
 
@@ -29,3 +29,9 @@ To run in development mode:
 
 To run a finished production build:
 `npm run build`
+
+---
+
+If you liked this assembly, I would be glad if you clicked on the star at the top of the page.
+
+## Thank you! Happy coding! =)
