@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    @@include("chunk/header/index.html")
+    <main>
+      <h1 style="margin: 0 auto; width: 100%; max-width: 200px; line-height: 96vh">
+        Hello world
+      </h1>
+      <!--@@loop("chunk/news-item.html", "../../data/news.json") -->
+    </main>
+    @@include("chunk/footer/index.html")
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

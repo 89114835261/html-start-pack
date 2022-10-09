@@ -1,0 +1,13 @@
+@mixin btn-trans($border: $green, $bg: $white, $color: #000000) {
+  border-radius: 300px;
+  border: solid 2px $border;
+  color: $color;
+  background: $bg;
+}
+
+@mixin btn-splash($bg: $green, $color: $white) {
+  border-radius: 300px;
+  border: none;
+  color: $color;
+  background: $bg;
+}

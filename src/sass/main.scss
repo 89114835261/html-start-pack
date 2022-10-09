@@ -1,0 +1,10 @@
+@import './mixins/index.scss';
+
+//Add your fonts with it
+//         mixin       name     Roboto-regular.woff
+//@include font-face('Roboto', 'Roboto-regular')
+//@include font-face('Roboto', 'Roboto-regular', 700, 'bold')
+
+body {
+  background: violet;
+}
