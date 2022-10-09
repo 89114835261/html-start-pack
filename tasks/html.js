@@ -11,7 +11,7 @@ const size = require('gulp-size')
 const rename = require('gulp-rename') //Изменяем имя
 const plumber = require('gulp-plumber')
 const notify = require('gulp-notify')
-const webpHtml = require('gulp-webp-html-nosvg') // Watcher resize images
+const webpHtml = require('gulp-webp') // Watcher resize images
 
 const html = () => {
   return src(path.html.src)

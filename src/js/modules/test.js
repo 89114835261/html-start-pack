@@ -1,1 +1,5 @@
-module.exports = (a, b) => a + b;
+const test = () => {
+	console.log(2+2)
+}
+
+module.exports = test
