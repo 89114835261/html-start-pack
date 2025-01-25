@@ -35,6 +35,9 @@ To run a finished production build:
 ---  
   
 When creating a new scss file, you need to import it into src/sass/main.scss  
+Also this boilerplate is designed to use the BEM methodology  
+  
+---  
   
 If you liked this assembly, I would be glad if you clicked on the star at the top of the page.
 
