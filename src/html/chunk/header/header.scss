@@ -1,5 +1,8 @@
 .header {
   .header__title {
-    color: red;
+    color: blue;
+    @include max-lg {
+      color: red !important;
+    }
   }
 }
