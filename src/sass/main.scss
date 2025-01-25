@@ -1,5 +1,4 @@
 @import './mixins/index.scss';
-
 //Add your fonts with it
 //         mixin       name     Roboto-regular.woff
 //@include font-face('Roboto', 'Roboto-regular')
@@ -7,4 +6,15 @@
 
 body {
   background: violet;
+  @include max-lg {
+    background: peru;
+  }
+
+  @include max-md {
+    background: aquamarine;
+  }
+
+  @include max-sm {
+    background: azure;
+  }
 }

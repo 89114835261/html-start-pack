@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,10 +8,15 @@
   <body>
     @@include("chunk/header/index.html")
     <main>
-      <h1 style="margin: 0 auto; width: 100%; max-width: 200px; line-height: 96vh">
-        Hello world
+      <h1 style="margin: 0 auto; width: 100%; max-width: 200px; height: 300px">
+        Hello world <br />
+        CONTENT HERE
       </h1>
-      <!--@@loop("chunk/news-item.html", "../../data/news.json") -->
+      <div
+        style="display: flex; flex-direction: column; align-items: center; width: 100%"
+      >
+        @@loop("chunk/news-item.html", "../../data/news.json")
+      </div>
     </main>
     @@include("chunk/footer/index.html")
     <script src="js/main.min.js"></script>

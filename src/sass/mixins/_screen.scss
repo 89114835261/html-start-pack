@@ -1,0 +1,73 @@
+@import './../base//variables.scss';
+
+@mixin max-xxs {
+  @media (max-width: $bp-xxs) {
+    @content;
+  }
+}
+
+@mixin min-xxs {
+  @media (min-width: $bp-xxs) {
+    @content;
+  }
+}
+
+@mixin max-xs {
+  @media (max-width: $bp-xs) {
+    @content;
+  }
+}
+
+@mixin min-xs {
+  @media (min-width: $bp-xs) {
+    @content;
+  }
+}
+
+@mixin max-sm {
+  @media (max-width: $bp-sm) {
+    @content;
+  }
+}
+
+@mixin min-sm {
+  @media (min-width: $bp-sm) {
+    @content;
+  }
+}
+
+@mixin max-md {
+  @media (max-width: $bp-md) {
+    @content;
+  }
+}
+
+@mixin min-md {
+  @media (min-width: $bp-md) {
+    @content;
+  }
+}
+
+@mixin max-lg {
+  @media (max-width: $bp-lg) {
+    @content;
+  }
+}
+
+@mixin min-lg {
+  @media (min-width: $bp-lg) {
+    @content;
+  }
+}
+
+@mixin max-xl {
+  @media (max-width: $bp-xl) {
+    @content;
+  }
+}
+
+@mixin min-xl {
+  @media (min-width: $bp-xl) {
+    @content;
+  }
+}
